@@ -6,7 +6,7 @@ import jspdf from "jspdf";
 const Resume = ({ formItems }) => {
   const navigate = useNavigate();
   const createAgain = () => {
-    navigate("/");
+    navigate("/resume_builder");
   };
   const downloadPdf = () => {
     const capture = document.querySelector(".resume");

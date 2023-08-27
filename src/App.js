@@ -27,7 +27,10 @@ function App() {
     <div>
       <Router>
         <Routes>
-          <Route path="/" element={<Form handleChange={handleChange} />} />
+          <Route
+            path="/resume_builder"
+            element={<Form handleChange={handleChange} />}
+          />
           <Route path="/resume" element={<Resume formItems={formItems} />} />
         </Routes>
       </Router>
