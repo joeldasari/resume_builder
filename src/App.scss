@@ -67,6 +67,7 @@
 }
 
 .mainblock {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,20 +75,18 @@
   background-color: #7091f5;
   padding: 20px;
 
-  @include mobile {
-    height: 100vh;
-  }
   .resume {
     padding: 20px;
     background-color: white;
-    width: 595px;
-    height: 842px;
+    width: 416px;
+    height: 589px;
 
     @include mobile {
       width: 357px;
       height: 505px;
     }
     .name {
+      font-size: 0.7rem;
       padding: 10px;
       border-bottom: 3px solid #793fdf;
 
@@ -96,9 +95,10 @@
       }
     }
     .details {
+      font-size: 0.7rem;
       display: flex;
       justify-content: space-between;
-      gap: 40px;
+      gap: 15px;
       padding: 10px;
       @include mobile {
         gap: 30px;
