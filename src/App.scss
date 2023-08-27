@@ -85,12 +85,20 @@
     .name {
       padding: 10px;
       border-bottom: 3px solid #793fdf;
+
+      @include mobile {
+        font-size: 0.5rem;
+      }
     }
     .details {
       display: flex;
       justify-content: space-between;
       gap: 40px;
       padding: 10px;
+      @include mobile {
+        gap: 30px;
+        font-size: 0.5rem;
+      }
       .details1 {
         .per {
           display: flex;
