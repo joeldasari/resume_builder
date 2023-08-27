@@ -73,6 +73,10 @@
   justify-content: center;
   background-color: #7091f5;
   padding: 20px;
+
+  @include mobile {
+    height: 100vh;
+  }
   .resume {
     padding: 20px;
     background-color: white;
