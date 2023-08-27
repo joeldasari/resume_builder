@@ -32,7 +32,7 @@
       border-radius: 20px;
 
       @include mobile {
-        width: 400px;
+        width: 360px;
       }
 
       .mainTitle {
@@ -43,11 +43,11 @@
         border: none;
         outline: none;
         padding: 10px;
-        width: 360px;
+        width: 400px;
         border-bottom: 1px solid black;
 
         @include mobile {
-          width: 280px;
+          width: 320px;
         }
       }
 
