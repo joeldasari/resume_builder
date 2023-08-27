@@ -43,11 +43,11 @@
         border: none;
         outline: none;
         padding: 10px;
-        width: 400px;
+        width: 360px;
         border-bottom: 1px solid black;
 
         @include mobile {
-          width: 300px;
+          width: 280px;
         }
       }
 
@@ -80,7 +80,7 @@
     height: 842px;
 
     @include mobile {
-      width: 400px;
+      width: 360px;
     }
     .name {
       padding: 10px;
